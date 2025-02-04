@@ -1,0 +1,26 @@
+{
+    "_id": {
+        "$oid": "67a1889132be94d5205581c4"
+    },
+    "user_id": "test",
+    "hashed_password": null,
+    "first_name": "Omar",
+    "last_name": "AlSalih",
+    "dob_day": 2,
+    "dob_month": 11,
+    "dob_year": 1999,
+    "show_gender": true,
+    "gender_indentity": "man",
+    "gender_interest": "woman",
+    "email": "omar@test.com",
+    "url": "https://i.imgur.com/Q9WPLWA.jpg",
+    "about": "I love the gym, parties and in general work hard play hard",
+    "matches": [
+        {
+            "user_id": "test2"
+        },
+        {
+            "user_id": "test2"
+        }
+    ]
+}
