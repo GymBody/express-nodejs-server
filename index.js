@@ -150,7 +150,7 @@ app.get("/schedule", async (req, res) => {
   try {
     const { userId } = req.query;
     if (!userId) return res.status(400).json({ error: "❌ User ID is required" });
-
+//"gym-data" is the name of the database collection
     const database = client.db("gym-data");
     const schedules = database.collection("schedules");
 
